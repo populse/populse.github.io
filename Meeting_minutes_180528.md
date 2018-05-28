@@ -20,7 +20,7 @@ Discussion sur populse_db:
 
 * Ajout de la possibilité de passer un dictionnaire de valeurs à la fonction "add_document" (gain en temps d'exécution)
   * Préparer les bons noms de colonnes au valeurs (hashage) au début de la fonction
-  * Passer dict** à la création de l'objet document, au lieu de "name=document"
+  * Passer **dict à la création de l'objet document, au lieu de "name=document"
 
 * Possibilité de choisir la/les clé(s) primaire(s) de chaque collection
   * Choix clé primaire à la création de la collection
@@ -42,3 +42,7 @@ Discussion sur populse_db:
   * Créé par défaut à la création de la base de données
   * Offrir la possibilité d'ajouter des colonnes (attributs) aux "fields" (Serait utile dans MIA pour ajouter la valeur par défaut, l'unité, l'origine, et la visibilité)
   * Collection à gérer de manière différente car elle n'est que partiellement modifiable
+  
+* Discussion rapide autour des pipelines
+  * Besoin de sauvegarder les paramètres par défaut des briques : réunion à organiser pour en parler
+  * Problème de config avec SPM Standalone : besoin de remplir simplement l'emplacement de SPM12 Standalone dans StudyConfig
