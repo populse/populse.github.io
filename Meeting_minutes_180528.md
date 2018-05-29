@@ -43,7 +43,7 @@ Réunion développement 28/05/2018 10h avec PG, DH, LOB, YC, DR
   * Offrir la possibilité d'ajouter des colonnes (attributs) aux "fields" (Serait utile dans MIA pour ajouter la valeur par défaut, l'unité, l'origine, et la visibilité)
   * Collection à gérer de manière différente car elle n'est que partiellement modifiable
   
-#### Discussion rapide autour des pipelines
+#### Discussion rapide autour des pipelines:
 
   * Besoin de sauvegarder les paramètres par défaut des briques : réunion à organiser pour en parler
   * Problème de config avec SPM Standalone : besoin de remplir simplement l'emplacement de SPM12 Standalone dans StudyConfig
