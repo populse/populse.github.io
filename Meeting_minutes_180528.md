@@ -19,6 +19,10 @@ Modifié le 01/06/2018
     * Problème de gestion de paramètres cachés
     * GUI complexifié
     
+  * Autre solution envisagée : stocker ces paramètres dans la structure de pipeline
+  
+    *  Parcours des user traits et set des valeurs
+    
   * Discussion sur l'enregistrement des sorties de brique
   
   * Mettre toutes les valeurs (sorties + paramètres de brique) liées au run dans un autre fichier
