@@ -1,14 +1,48 @@
 
 Modifié le 01/06/2018
 
-Réunion développement 01/06/2018 avec PG et LOB
+<ins> Réunion développement 30/05/2018 avec PG, DH, LOB, YC et DR </ins>
+
+#### Discussion principale sur les pipelines
+
+* Sauvegarde des pipelines (actuellement 2 manières: classe python ou XML)
+
+  * Les 2 manières d'enregistrer les pipelines donnent des résultats différents:
+  
+    * Classe python: seulement les entrées de brique sont sauvées
+    * XML: les paramètres des briques sont aussi sauvés
+    * Conclusion: Revoir génération du fichier XML dans Capsul
+    
+  * Problème: Il faudrait tout sauvegarder dans MIA
+  
+  * Première solution envisagée : Mettre toutes les valeurs en entrée de pipeline pour qu'elles soient enregistrées
+    * Problème de gestion de paramètres cachés
+    * GUI complexifié
+    
+  * Discussion sur l'enregistrement des sorties de brique
+  
+  * Mettre toutes les valeurs (sorties + paramètres de brique) liées au run dans un autre fichier
+    * Pour les échanges de pipeline, on ne veut pas donner ces paramètres (noms de fichier pas exemple)
+    * Enregistrement au format JSON, mais tout doit être (dé)serializable
+      * Problème avec les dates, mais il n'y en a pas encore trop dans les process (il faudra les transformer en str)
+      
+#### Discussion rapide sur populse_db
+
+* Filtres
+  * Si pas de SQL possible => Python, mais transparent pour l'utilisateur
+  * Regarder pour encore optimiser les requêtes à l'import
+  * Essayer de voir le résultat en passant un dictionnaire de valeurs à add_document()
+  * passer la collection au filtre
+  * Résolution du problème avec la requête OR entre Python et SQL
+
+<ins> Réunion développement 01/06/2018 avec PG et LOB </ins>
 
  * passage en collections(nom collection, clé primaire de la collection), fields, documents(collection, dict de valeurs ou valeur clé primaire) fait
     * comment faire pour intégrer les tags qui sont un héritage de field(nom, type, desc, collection) qui auraient comme champ en plus (origin, unité, visibilité, valeur par défaut),  je pense à rajouté (date création,reputation) pertinent ?
        * après mûre discussion, (faire une collection field, collection tag,  collection de collection, heritage) afin de continuer à séparer le général du spécifique à MIA, mettre sous forme de classe : collections, fields et documents ensuite faire un héritage dont on surchargerait principalement field qui deviendrait un tag = field façon MIA
        * Il faut aussi surcharger la création du schéma pour une base de données non existante, afin d'ajouter les nouvelles colonnes à la table field
 
-Réunion développement 28/05/2018 10h avec PG, DH, LOB, YC, DR
+<ins> Réunion développement 28/05/2018 10h avec PG, DH, LOB, YC, DR </ins>
 
 #### Discussion sur populse_db
 
