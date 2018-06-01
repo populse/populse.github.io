@@ -11,11 +11,11 @@ Modifié le 01/06/2018
   
     * Classe python: seulement les entrées de brique sont sauvées
     * XML: les paramètres des briques sont aussi sauvés
-    * Conclusion: Revoir génération du fichier XML dans Capsul
+    * Conclusion: revoir génération du fichier XML dans Capsul
     
   * Problème: Il faudrait tout sauvegarder dans MIA
   
-  * Première solution envisagée : Mettre toutes les valeurs en entrée de pipeline pour qu'elles soient enregistrées
+  * Première solution envisagée : mettre toutes les valeurs en entrée de pipeline pour qu'elles soient enregistrées
     * Problème de gestion de paramètres cachés
     * GUI complexifié
     
@@ -38,7 +38,7 @@ Modifié le 01/06/2018
 <ins> Réunion développement 01/06/2018 avec PG et LOB </ins>
 
  * passage en collections(nom collection, clé primaire de la collection), fields, documents(collection, dict de valeurs ou valeur clé primaire) fait
-    * comment faire pour intégrer les tags qui sont un héritage de field(nom, type, desc, collection) qui auraient comme champ en plus (origin, unité, visibilité, valeur par défaut),  je pense à rajouté (date création,reputation) pertinent ?
+    * comment faire pour intégrer les tags qui sont un héritage de field(nom, type, desc, collection) qui auraient comme champ en plus (origin, unité, visibilité, valeur par défaut), et rajouter date de création et réputation serait pertinent?
        * après mûre discussion, (faire une collection field, collection tag,  collection de collection, heritage) afin de continuer à séparer le général du spécifique à MIA, mettre sous forme de classe : collections, fields et documents ensuite faire un héritage dont on surchargerait principalement field qui deviendrait un tag = field façon MIA
        * Il faut aussi surcharger la création du schéma pour une base de données non existante, afin d'ajouter les nouvelles colonnes à la table field
 
