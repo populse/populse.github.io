@@ -29,6 +29,9 @@ Modifié le 01/06/2018
     * Pour les échanges de pipeline, on ne veut pas donner ces paramètres (noms de fichier pas exemple)
     * Enregistrement au format JSON, mais tout doit être (dé)serializable
       * Problème avec les dates, mais il n'y en a pas encore trop dans les process (il faudra les transformer en str)
+    * Il pourrait alors y avoir de nouvelles collections dans la base de données :
+      * "Pipelines" qui stockerait la structure du pipeline et les informations internes à celui-ci
+      * "Runs" qui stockerait les paramètres d'entrée du pipeline à chaque run effectué
       
 #### Discussion rapide sur populse_db
 
