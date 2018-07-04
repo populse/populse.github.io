@@ -16,7 +16,7 @@ Reunion Populse 04.07.2018 10:30 BL, PG, OM, EC, DH, LOB, YC, DR
   - populse_SOMA-BASE
   - populse_MIA => passage de populse_sandbox sur GitHub a populse_MIA des que possible. Enlever toutes les briques developpees en interne dans les plus brefs delais. Ne restera dans la bibliotheque de pipelines populse_MIA que les briques par default de nipype/ Capsul => A ce sujet, voir avec Yann et Denis pourquoi cela ne fonctionne pas par defaut ???
   - populse_MRIconv
-  - Un dataviewer, non encore defini (populse_ANATOMIST ? autre(S))
+  - Un dataviewer, non encore defini (populse_ANATOMIST ? autre(S) ?)
 
 -3 Licence:
 ============
