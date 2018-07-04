@@ -64,6 +64,8 @@ Reunion Populse 04.07.2018 9:30 BL, PG, OM, EC, DH, LOB, YC, DR
 - Lucie presente la version actuelle de populse_db
 
     - Utilisation de cache pour augmenter la rapidite, mais cela revient a ne pas avoir de base de donnees (sauf pour le requettage…) => Possible d’ameliorer sans utiliser de cache ?
+    
+- [Diaporama de présentation :](https://docs.google.com/presentation/d/1z5TYHozp8XXOfXQS2yg5thlo6a6M6YVmzguKzEUdHag/edit)
 
 -6 Presentation de la version actuelle de populse_MIA
 ============
