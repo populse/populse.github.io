@@ -11,7 +11,7 @@ qu'avec python >= 3.3. Puis on voit pour le deploiement avec pip. A l’issue,
  permettant de faire ulterieurement un nouveau deploiement avec pip sans nouvel
  effort de documentation !!
  
- Edit: Populse_db est maintenant compatible avec python 2.7
+ Edit : Populse_db est maintenant compatible avec python 2.7
 
 -2 Sortie de populse_mia du bac a sable :
 ============
