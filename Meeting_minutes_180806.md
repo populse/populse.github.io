@@ -15,7 +15,7 @@ qu'avec python >= 3.3. Puis on voit pour le deploiement avec pip. A l’issue,
  
  Edit : Déploiement sur PyPi réalisé
  
- [PDF explicatif](déploiement_pip_populse_db.pdf)
+ [PDF explicatif](https://github.com/populse/populse.github.io/blob/master/deploiement%20pip%20populse_db.pdf)
 
 -2 Sortie de populse_mia du bac a sable :
 ============
