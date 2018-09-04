@@ -1,7 +1,7 @@
 Reunion Populse 04.09.2018 13:30 OM, EC, DH, YC, DR, PG, EB, JW, BL
 ============
 
--1 Discussion sur l'évolution du PipelineDevelopperView proposée par OM
+1- Discussion sur l'évolution du PipelineDevelopperView proposée par OM
 ============
 
 - OK dans l'ensemble
@@ -23,7 +23,7 @@ Reunion Populse 04.09.2018 13:30 OM, EC, DH, YC, DR, PG, EB, JW, BL
 
 - Effectuer une pull requests sur le dépôt GitHub de Capsul
 
--2 Discussion autour du Data Viewer
+2- Discussion autour du Data Viewer
 ============
 
 - Objectif retenu :
