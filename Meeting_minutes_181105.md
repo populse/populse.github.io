@@ -12,7 +12,7 @@
   * Either rename populse_mia and populse_db to MIA and DB
 
     * Could be too generic (hard to find the database API by googling only "db")
-    * These names already exists on Pypi
+    * These names already exist on Pypi
 
   * Or rename Capsul, soma-base and soma-workflow to populse_capsul, populse_base and populse_workflow
 
