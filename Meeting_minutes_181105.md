@@ -30,7 +30,7 @@
     * user config
     * project config
 
-  * The user config could be initialize when the software is launched for the first time
+  * The user config could be initialized when the software is launched for the first time
 
     * The user could set the different default values (e.g. to use SPM, FSL)
 
