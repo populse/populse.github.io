@@ -1,10 +1,29 @@
 # POPULSE: Pipeline Organizer, Project Unifier, Linking Software for Everyone
-## populse_mia: 
-## populse_db: 
-## capsul: 
-## mia_processes: 
-## soma:
-## mriconv:
+
+## [populse_mia](https://github.com/populse/populse_mia):
+
+## [populse_db](https://github.com/populse/populse_db):
+
+## [capsul](https://github.com/populse/capsul):
+Python library to chain algorithms in pipelines
+- Encapsulate algorithms in Processes
+- Chain Processes within Pipelines
+- Execute pipelines in parallel with soma-workflow
+- Use a graphical interface to develop Pipelines
+- Configure one or more execution contexts
+- Embed Pipelines in any Python applications
+
+## [mia_processes](https://github.com/populse/mia_processes):
+
+## [soma-base](https://github.com/populse/soma-base):
+Miscellaneous libs for the python environment of Populse / BrainVISA
+
+## [soma-workflow](https://github.com/populse/soma-workflow):
+A unified and simple interface to parallel computing resource.
+
+Parallel computing resources are now highly available: multiple core machines, clusters or grids. Soma-workflow is a unified and simple interface to parallel computing resources which aims at making easier the use of parallel resources by non expert users and software.
+
+## [mriconv](https://github.com/populse/mri_conv):
 MRI File Manager allows the reading of some raw and processed data files from MRI Spectrometers : 
 - Bruker Paravision PV5 & PV6 (raw data of magnitude type).
 - Dicom from Bruker, Philips, Siemens.
