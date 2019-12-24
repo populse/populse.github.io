@@ -14,6 +14,7 @@ Python library to chain algorithms in pipelines
 - Embed Pipelines in any Python applications
 
 ## [mia_processes](https://github.com/populse/mia_processes):
+The official bricks library for populse_mia.
 
 ## [soma-base](https://github.com/populse/soma-base):
 Miscellaneous libs for the python environment of Populse / BrainVISA
