@@ -1,5 +1,4 @@
-# Pipeline Organizer, Project Unifier, Linking Software for Everyone (POPULSE):
-A project aimed to provide pipeline calculation tools to the neuroimaging community.
+# A project aimed to provide pipeline calculation tools to the neuroimaging community.
 
 ## [populse_mia](https://github.com/populse/populse_mia):
 Multiparametric Image Analysis (populse_mia or MIA) is intended to be a complete image processing environment mainly targeted at the analysis and visualisation of large amounts of MRI data. In this environment, a process pipeline can be easily built by sequentially linking a succession of atomic computation (brick). Pipeline metadata as well as input, output or intermediate data are automatically managed by a database integrated into the environment. MIA is written in Python and is mainly based on populse's API, such as caspul, populse_db or soma_workflow.
