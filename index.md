@@ -1,4 +1,4 @@
-# [A project aimed to provide pipeline calculation tools to the neuroimaging community]((https://github.com/populse)
+# [A project aimed to provide pipeline calculation tools to the neuroimaging community](https://github.com/populse)
 
 ## [capsul](https://github.com/populse/capsul):
 Python library to chain algorithms in pipelines
