@@ -12,22 +12,22 @@ Python library to chain algorithms in pipelines
 - Embed Pipelines in any Python applications
 
 ## [mia_processes](https://github.com/populse/mia_processes):
-The official bricks library for populse_mia.
+The official bricks library for populse_mia
 
 ## [mriconv](https://github.com/populse/mri_conv):
-MRI File Manager allows the reading of some raw and processed data files from MRI Spectrometers : 
-- Bruker Paravision PV5 & PV6 (raw data of magnitude type).
-- Dicom from Bruker, Philips, Siemens.
-- Philips Achieva (Par/Rec & Xml/Rec v4.2).
-- Nifti-1 (with or without Json).
-- Bids - Brain Imaging Data Structure.
+MRI File Manager allows the reading of some raw and processed data files from MRI Spectrometers: 
+- Bruker Paravision PV5 & PV6 (raw data of magnitude type)
+- Dicom from Bruker, Philips, Siemens
+- Philips Achieva (Par/Rec & Xml/Rec v4.2)
+- Nifti-1 (with or without Json)
+- Bids - Brain Imaging Data Structure
 
 It also allows for converting MRI images to Nifti-1:
-- Export MRI data in Nifti-1 format until 5 dimensions of the image (x, y, slice, frame, temporal).</li>
-- Json files are created and associated with Nifti files in order to contain MRI parameters (see 'Irmage Json' page).
-- an option of anonymization allows to hide sensitive informations about the patient (name, age, sex, weight).
-- adaptation of orientation information in Nifti headers (tested on SPM, FSL).
-- option of customizing the Nifti file names.
+- Export MRI data in Nifti-1 format until 5 dimensions of the image (x, y, slice, frame, temporal)
+- Json files are created and associated with Nifti files in order to contain MRI parameters (see 'Irmage Json' page)
+- an option of anonymization allows to hide sensitive informations about the patient (name, age, sex, weight)
+- adaptation of orientation information in Nifti headers (tested on SPM, FSL)
+- option of customizing the Nifti file names
 - possibility to create text files containing bvecs & bvals for MRtrix and FSL (Bruker and Philips)
 
 ## [populse_db](https://github.com/populse/populse_db):
@@ -40,7 +40,7 @@ Multiparametric Image Analysis (populse_mia or MIA) is intended to be a complete
 Miscellaneous libs for the python environment of Populse / BrainVISA
 
 ## [soma-workflow](https://github.com/populse/soma-workflow):
-A unified and simple interface to parallel computing resource.
+A unified and simple interface to parallel computing resource
 
 Parallel computing resources are now highly available: multiple core machines, clusters or grids. Soma-workflow is a unified and simple interface to parallel computing resources which aims at making easier the use of parallel resources by non expert users and software.
 
