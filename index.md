@@ -22,7 +22,7 @@ MRI File Manager allows the reading of some raw and processed data files from MR
 - Nifti-1 (with or without Json)
 - Bids - Brain Imaging Data Structure
 
-It also allows for converting MRI images to Nifti-1:
+It also converts MRI images to Nifti-1:
 - Export MRI data in Nifti-1 format until 5 dimensions of the image (x, y, slice, frame, temporal)
 - Json files are created and associated with Nifti files in order to contain MRI parameters (see 'Irmage Json' page)
 - an option of anonymization allows to hide sensitive informations about the patient (name, age, sex, weight)
